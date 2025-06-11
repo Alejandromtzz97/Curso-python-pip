@@ -248,3 +248,17 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,python
+
+# Ignorar carpetas generadas o de datos
+app/
+charts/
+
+# Ignorar el archivo de imagen pie.png
+pie.png
+
+# Otras cosas comunes a ignorar en proyectos Python si aún no las tienes
+__pycache__/
+*.pyc
+*.pdf # Si este proyecto también generará PDFs que no quieres subir
+.vscode/
+.DS_Store
